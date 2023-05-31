@@ -10,11 +10,11 @@
     </div>
 </c:if>
 <label for="title">タスクタイトル</label><br />
-<input type="text" name="title" id="title" value="${message.title}" />
+<input type="text" name="title" id="title" value="${tasks.title}" />
 <br /><br />
 
 <label for="content_msg">タスク内容</label><br />
-<input type="text" name="content" id="content_msg" value="${message.content}" />
+<input type="text" name="content" id="content_msg" value="${tasks.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />

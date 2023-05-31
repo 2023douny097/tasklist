@@ -2,10 +2,10 @@ package models.validators;
 import java.util.ArrayList;
 import java.util.List;
 
-import models.Message;
+import models.Tasks;
 
-public class MessageValidator {
-    public static List<String> validate(Message m) {
+public class TasksValidator {
+    public static List<String> validate(Tasks m) {
         List<String> errors = new ArrayList<String>();
 
         String title_error = validateTitle(m.getTitle());
